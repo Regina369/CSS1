@@ -1,0 +1,146 @@
+:root {
+  background-color: white;
+}
+
+* {
+  color: black;
+}
+
+h1 {
+  background-color: blue;
+}
+
+.green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+div.box {
+  background-color: green;
+}
+
+div.box p {
+  background-color: red;
+}
+
+.brown {
+  background-color: brown;
+  color: white;
+}
+
+ul > li {
+  background-color: red;
+}
+
+button + span {
+  background-color: red;
+}
+
+.susid ~ p {
+  background-color: blue;
+  color: white;
+}
+
+.salo,
+#bread {
+  background-color: yellow;
+}
+
+/*  Урок 2  */
+
+.first-task ul li:first-child {
+  color: white;
+}
+
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+
+.third-task ul:last-child li:first-child {
+  background-color: yellow;
+}
+
+.four-task ul li:last-child {
+  background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+
+.only-child-task > div:only-child {
+  color: red;
+}
+
+.seven-task > p:first-of-type {
+  background-color: red;
+}
+
+.eight-task > p:last-of-type {
+  background-color: red;
+}
+
+.nine-task p:only-of-type {
+  background-color: yellow;
+}
+
+/* <!--   Урок 3  --> */
+
+.lesson-three-task-one nav a[href] {
+  color: white;
+}
+
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+
+.lesson-three-task-three li[value='3'] {
+  background-color: red;
+}
+
+.lesson-three-task-four button.primary {
+  background-color: blue;
+  color: white;
+}
+
+.lesson-three-task-five button[class^='secondary'] {
+  background-color: red;
+}
+
+.lesson-three-task-six li[class^='b'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-seven li[class*='on'] {
+  background-color: white;
+  color: green;
+}
+
+.lesson-three-task-eight li span[class$='s'] {
+  background-color: white;
+  color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten::first-line {
+  background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+
+.lesson-three-task-twelve ul li::before {
+  content: '➤';
+}
+
+.lesson-three-task-thirteen ul li::after {
+  content: '➤';
+}
